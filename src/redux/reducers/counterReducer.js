@@ -4,6 +4,7 @@ const initialState = {
     Counter: 20
 }
 
+// counter reducer action handled (INCREMENT,DECREMENT)
 const counterReducer = (state = initialState, action) => {
 
     switch (action.type) {

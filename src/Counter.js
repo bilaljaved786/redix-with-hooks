@@ -3,7 +3,11 @@ import { INCREMENT, DECREMENT } from './redux/actions/action';
 import React from 'react';
 
 const Counter = () => {
+
+    // using of use use-selector hooks  (counterReducer) is a reducer with counter state
     const counter = useSelector(state => state.counterReducer.Counter);
+
+    // useDispatch hook to trigger action and acknoledge redux some action has performed
     const dispatch = useDispatch();
     return (
         <>
