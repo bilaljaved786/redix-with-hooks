@@ -1,6 +1,5 @@
-// define action constant in one place 
-
+// define action constant
 const increment = "increment";
 const decrement = "decrement";
 
-export {increment,decrement}
+export { increment, decrement };

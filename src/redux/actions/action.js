@@ -1,16 +1,16 @@
 import { increment, decrement } from "../constants/types";
 
-// define (INCREMENT,DECREMENT) ACTIONS
+// define actions
 const INCREMENT = () => {
-    return {
-        type: increment
-    }
-}
+  return {
+    type: increment,
+  };
+};
 
 const DECREMENT = () => {
-    return {
-        type: decrement
-    }
-}
+  return {
+    type: decrement,
+  };
+};
 
-export { INCREMENT, DECREMENT }
+export { INCREMENT, DECREMENT };
